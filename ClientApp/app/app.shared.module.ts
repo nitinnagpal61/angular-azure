@@ -9,6 +9,7 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { CounterComponent } from './components/counter/counter.component';
         CounterComponent,
         FetchDataComponent,
         HomeComponent
-    ],
+	],
+	providers: [ AuthService ],
     imports: [
         CommonModule,
         HttpModule,
