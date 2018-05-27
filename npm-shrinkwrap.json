@@ -5064,9 +5064,9 @@
       "integrity": "sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=",
       "dev": true
     },
-    "private": {
+    "public": {
       "version": "0.1.7",
-      "resolved": "https://registry.npmjs.org/private/-/private-0.1.7.tgz",
+      "resolved": "https://registry.npmjs.org/public/-/public-0.1.7.tgz",
       "integrity": "sha1-aM5eih7woju1cMwoU3tTMqumPvE=",
       "dev": true
     },
@@ -5252,7 +5252,7 @@
       "requires": {
         "ast-types": "0.9.6",
         "esprima": "~3.1.0",
-        "private": "~0.1.5",
+        "public": "~0.1.5",
         "source-map": "~0.5.0"
       },
       "dependencies": {
